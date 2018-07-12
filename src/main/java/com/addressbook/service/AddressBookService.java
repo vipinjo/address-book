@@ -62,7 +62,7 @@ public class AddressBookService {
 	 * @return
 	 */
 	public List<AddressBook> getAllAddressBooks() {
-		return this.addressBookDao.getAddresBooks();
+		return this.addressBookDao.getAddressBooks();
 	}
 	
 	/**
@@ -107,7 +107,7 @@ public class AddressBookService {
 	 */
 	public boolean removeAddressBook(String addressBookName) {
 		if (addressBookName != null) {
-				 return addressBookDao.removeAddresBook(addressBookName);
+				 return addressBookDao.removeAddressBook(addressBookName);
 		}
 		
 		return false;

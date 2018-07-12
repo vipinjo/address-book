@@ -32,7 +32,7 @@ public class AddressBookDaoImpl implements AddressBookDao {
 		return addressBook;
 	}
 
-	public List<AddressBook> getAddresBooks() {
+	public List<AddressBook> getAddressBooks() {
 		return new ArrayList<AddressBook>(addressBooks.values());
 	}
 
@@ -41,7 +41,7 @@ public class AddressBookDaoImpl implements AddressBookDao {
 		return addressBooks.get(name);
 	}
 	
-	public boolean removeAddresBook(String name) {
+	public boolean removeAddressBook(String name) {
 		boolean isRemoved = false;
 		if (name != null) {
 			AddressBook addressBook = addressBooks.remove(name);

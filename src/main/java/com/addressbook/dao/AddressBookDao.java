@@ -9,10 +9,10 @@ public interface AddressBookDao {
 	
 	AddressBook saveAddressBook(String name) throws AddressBookException;
 	
-	List<AddressBook> getAddresBooks();
+	List<AddressBook> getAddressBooks();
 	
 	AddressBook getAddressBook(String name);
 	
-	boolean removeAddresBook(String name);
+	boolean removeAddressBook(String name);
 
 }
